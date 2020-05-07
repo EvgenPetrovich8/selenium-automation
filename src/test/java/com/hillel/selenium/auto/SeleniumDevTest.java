@@ -30,7 +30,7 @@ public class SeleniumDevTest {
     }
 
 
-    @Test (priority=1)
+    @Test
     public void seleniumDevSiteDownloadsCheckTitle()
     {
         WebDriver.Navigation navigate= driver.navigate();
@@ -43,7 +43,7 @@ public class SeleniumDevTest {
 
     }
 
-    @Test (priority=2)
+    @Test
     public void seleniumDevSiteProjectsCheckTitle()
     {
         WebDriver.Navigation navigate= driver.navigate();
@@ -55,7 +55,7 @@ public class SeleniumDevTest {
 
     }
 
-    @Test (priority=3)
+    @Test
     public void seleniumDevSiteDocumentationCheckTitle()
     {
         WebDriver.Navigation navigate= driver.navigate();
@@ -67,7 +67,7 @@ public class SeleniumDevTest {
 
     }
 
-    @Test (priority=4)
+    @Test
     public void seleniumDevSiteSupportCheckTitle()
     {
         WebDriver.Navigation navigate= driver.navigate();
@@ -78,7 +78,7 @@ public class SeleniumDevTest {
         assertEquals(title,"Selenium Support");
 
     }
-    @Test (priority=5)
+    @Test
     public void seleniumDevSiteBlogCheckTitle()
     {
         WebDriver.Navigation navigate= driver.navigate();
