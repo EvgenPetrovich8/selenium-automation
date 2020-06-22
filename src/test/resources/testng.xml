@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke test suite">
+
+    <listeners>
+        <listener class-name="com.hillel.selenium.auto.listener.MethodListeners"/>
+    </listeners>
+
+    <test name="Login tests">
+        <classes>
+            <class name="io.react.realworld.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
